@@ -148,11 +148,8 @@ uv run tensorboard --logdir trained_model/vits_lego_v2 --port 6006
 ```
 
 Open <http://localhost:6006> and review the **Scalars**, **Images**, and
-**Audio** tabs. A static Excel report is also available at
-[`outputs/vits-loss-report-2026-11-15/vits_training_report.xlsx`](outputs/vits-loss-report-2026-11-15/vits_training_report.xlsx).
-It contains an overview with loss charts and an epoch-by-epoch metrics sheet.
-Losses are diagnostics; listen to generated and held-out samples when judging
-speech quality.
+**Audio** tabs. Losses are diagnostics; listen to generated and held-out
+samples when judging speech quality.
 
 ## Git and model artifacts
 
