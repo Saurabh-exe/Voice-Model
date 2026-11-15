@@ -1,0 +1,3 @@
+CSV_PATH: LEGOv2/corpus/csv/interactions.csv
+AUDIO_BASE: LEGOv2/audio
+MANIFEST_PATH: tts_manifest.json

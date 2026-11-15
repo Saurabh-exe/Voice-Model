@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+*.env
+*.json
+*.csv
+*.npy
+
+# Local model checkpoints and generated inference output
+LEGOv2/
+trained_model/
+speaker_analysis/output/
+*.pth
+*.pt
+*.ckpt
+events.out.tfevents.*
+generated_audio/
+*.inspect.ndjson
+.DS_Store
+*.ipynb
+LEGOv2/
+outputs/
