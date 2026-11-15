@@ -17,6 +17,15 @@ Voice Model/
 └── src/voice_model/
 ```
 
+## Download the dataset
+
+Download the LEGOv2 corpus from the University of Bamberg's
+[LEGO Spoken Dialogue Corpus page](https://www.uni-bamberg.de/ds/ressourcen/lego/).
+Use the LEGOv2 download for this project; the page also describes the corpus
+and provides its license. Extract it at the repository root so the files are
+available under `LEGOv2/audio/` and `LEGOv2/corpus/csv/`. The dataset is not
+included in Git because of its size.
+
 ## Speaker analysis
 
 Speaker-analysis code is in
